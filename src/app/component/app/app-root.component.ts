@@ -18,4 +18,9 @@ export class AppRootComponent {
       this.counter++;
     }, 2000);
   }
+
+  onClick() {
+    this.counter++;
+    console.log(this.counter);
+  }
 }

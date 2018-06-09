@@ -2,8 +2,8 @@ import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'help-button',
-  templateUrl:'./help-button.component.html',
-  styleUrls:['./help-button.component.css']
+  templateUrl: './help-button.component.html',
+  styleUrls: ['./help-button.component.css']
 })
 
 export class HelpButtomComponent {
@@ -11,6 +11,6 @@ export class HelpButtomComponent {
   tooltipVisible: false;
 
   onClick(event: MouseEvent) {
-    this.tooltipVisible = !this.tooltipVisible;+
+    // this.tooltipVisible = !this.tooltipVisible;
   }
 }
